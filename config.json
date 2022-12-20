@@ -4,12 +4,12 @@
   "name": "George Tay",
   "email": "email@email.com",
   "ascii": "asdfghjkxd",
-  "repo": "https://github.com/asdfghjkxd/MyLiveTerm",
+  "repo": "https://github.com/asdfghjkxd",
   "resume_url": "google.com",
   "social": {
-    "github": "https://github.com/asdfghjkxd/asdfghjkxd",
-    "linkedin": "https://www.linkedin.com/in/george-t-a819aa185/",
-    "dockerhub": "https://hub.docker.com/u/asdfghjklxd"
+    "github": "asdfghjkxd",
+    "linkedin": "in/george-t-a819aa185/",
+    "dockerhub": "hub.docker.com/u/asdfghjklxd"
   },
   "ps1_hostname": "asdfghjkxd",
   "ps1_username": "visitor",
