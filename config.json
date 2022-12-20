@@ -1,21 +1,15 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://github.com/asdfghjkxd/asdfghjkxd",
+  "title": "asdfghjkxd",
+  "name": "George Tay",
+  "ascii": "asdfghjkxd",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "https://github.com/asdfghjkxd/asdfghjkxd",
+    "linkedin": "https://www.linkedin.com/in/george-t-a819aa185/",
+    "dockerhub": "https://hub.docker.com/u/asdfghjklxd"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "ps1_hostname": "asdfghjkxd",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-  "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
-  },
   "colors": {
     "light": {
       "background": "#FBF1C9",
