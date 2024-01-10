@@ -15,11 +15,11 @@ export const help = async (args: string[]): Promise<string> => {
     }
   }
   return `Welcome! Here are all the available commands:
-\n${c}\n
-[tab]: trigger completion.
-[ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
-`;
+    \n${c}\n
+    [tab]: trigger completion.
+    [ctrl+l]/clear: clear terminal.\n
+    Type 'sumfetch' to display summary.
+    `;
 };
 
 // Redirection
@@ -31,15 +31,17 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+    Welcome to my LiveTerm!
+    
+    More about me:
+    'sumfetch' - short summary.
+    'resume' - my latest resume.
+    'readme' - my github readme.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
+
   return 'Opening resume...';
 };
 
@@ -97,49 +99,27 @@ export const whoami = async (args: string[]): Promise<string> => {
   return `${config.ps1_username}`;
 };
 
+export const whoareu = async (args: string[]): Promise<string> => {
+  return `${config.ps1_username}`
+}
+
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `file.txt file2.pdf file3.pptx file4.py`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `cd is not supported!`
 };
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
-};
-
-export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
-};
-
-export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
-};
-
-export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
-};
-
-export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
-  return `Permission denied: with little power comes... no responsibility? `;
-};
-
 // Banner
 export const banner = (args?: string[]): string => {
   return `
 
-  ________                              ______           
+    ______                              ______           
    / ____/__  _____ _________ ______   /_  __/___ ___  __
   / / __/ _ // __  / ___/ __ '/ _  /    / / / __ '/ / / /
  / /_/ /  __/ /_/ / /  / /_/ /  __/    / / / /_/ / /_/ / 
