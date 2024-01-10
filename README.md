@@ -11,7 +11,7 @@ LiveTerm can be used to build a variety of websites:
 - [project page](https://liveterm.vercel.app/)
 - or maybe just a cool browser music player...be creative!
 
-Feel free to play with the web demo above!
+Feel free to play with the web demo above! 
 
 ## 📸 Showcase
 
